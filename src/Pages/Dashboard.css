@@ -1,0 +1,28 @@
+
+
+.main{
+    margin: 0 2%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2%;
+}
+/* .secondary{
+    border: 1px solid black;
+    padding: 5%;
+    background-color: rgb(203, 214, 218);
+    border-radius: 10px;
+    margin-top: 10px;
+} */
+
+.crtBtn{
+    padding: 2px;
+    color: darkgreen;
+    /* background-color: rgb(145, 96, 159); */
+}
+.crtBtn:hover{
+    padding: 4px;
+    background-color: rgb(92, 181, 180);
+    color: red;
+    font-family: serif;
+}
+

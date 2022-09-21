@@ -1,0 +1,13 @@
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: rgb(40, 201, 212);
+    margin: 0;
+    padding: 1px
+}
+
