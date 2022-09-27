@@ -1,0 +1,61 @@
+
+.cartStyle{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.card{
+    /* border: 1px solid red; */
+    padding: 4px;
+    margin: 3px;
+    min-width: 50%;
+    min-height: 150px;
+    background-color: #fff;
+}
+
+.prodName{
+    color: rgb(0, 157, 255);
+    font-size: 20px;
+    font-family:monospace;
+}
+.prodPrice{
+    color: rgb(16, 206, 133);
+    font-family: cursive
+}
+
+.btn{
+    border-radius: 7px;
+    background-color: #fff;
+    font-size: 20px;
+}
+.ordNum{
+    border: 1px solid gray;
+    margin: 2px;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.content{
+    margin-left: 5%;
+}
+
+.btnSubmit{
+    padding: 15px;
+    background-color: cadetblue;
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+    width: 50%;
+    margin: 15px 0; 
+    font-size: 20px;
+    font-style:initial;
+}
+
+.btnSubmit:hover{
+    color: rgba(71, 4, 185, 0.705);
+    font-size: 25px;
+    
+}

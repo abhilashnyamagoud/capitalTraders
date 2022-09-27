@@ -6,13 +6,13 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 2%;
 }
-/* .secondary{
-    border: 1px solid black;
-    padding: 5%;
+.secondary{
+    /* border: 1px solid black; */
+    padding: 2%;
     background-color: rgb(203, 214, 218);
-    border-radius: 10px;
+    border-radius: 5px;
     margin-top: 10px;
-} */
+}
 
 .crtBtn{
     padding: 2px;
@@ -26,3 +26,7 @@
     font-family: serif;
 }
 
+.title{
+    font-family: monospace;
+    color: coral;
+}
