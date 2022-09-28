@@ -13,7 +13,7 @@ const Dashboard=()=>{
             quantity:10,
             price:76.979,
             numbers:1,
-            cartValue:null
+            cartValue:76.979
         },
         {
             name:'Champaca oil',
@@ -21,7 +21,7 @@ const Dashboard=()=>{
             quantity:100,
             price:13.5232,
             numbers:1,
-            cartValue:null
+            cartValue:13.5232
         },
         {
             name:'Tuberose oil',
@@ -29,7 +29,7 @@ const Dashboard=()=>{
             quantity:100,
             price:27.6496,
             numbers:1,
-            cartValue:null
+            cartValue:27.6496
         },
         {
             name:'Frangipani oil',
@@ -37,14 +37,14 @@ const Dashboard=()=>{
              quantity:10,
             price:37.5783,
             numbers:1,
-            cartValue:null
+            cartValue:37.5783
         },
         {
             name:"Cannabis oil",
             details:" reducing stress decreasing physiological effects of anxiety, such as an increased heart rate. ", quantity:100,
             price:6.1583,
             numbers:1,
-            cartValue:null
+            cartValue:6.1583
         },
         {
             name:'Agarwood oil',
@@ -52,7 +52,7 @@ const Dashboard=()=>{
             quantity:100,
             price:24.9978,
             numbers:1,
-            cartValue:null
+            cartValue:24.9978
         },
         {
             name:'Rose oil',
@@ -60,7 +60,7 @@ const Dashboard=()=>{
             quantity:10,
             price:223.0569,
             numbers:1,
-            cartValue:null
+            cartValue:223.0569
         },
         {
             name:' Elecampane oil',
@@ -68,7 +68,7 @@ const Dashboard=()=>{
             quantity:100,
             price:6.284,
             numbers:1,
-            cartValue:null
+            cartValue:6.284
         },
         {
             name:'Sandal oil',
@@ -76,7 +76,7 @@ const Dashboard=()=>{
             quantity:10,
             price:51.843,
             numbers:1,
-            cartValue:null
+            cartValue:51.843
         },
         {
             name:'Neroli oil',
@@ -84,7 +84,7 @@ const Dashboard=()=>{
             quantity:100,
             price:12.0653,
             numbers:1,
-            cartValue:null
+            cartValue:12.0653
         },
         {
             name:"Red sandal oil",
@@ -92,7 +92,7 @@ const Dashboard=()=>{
             quantity:10,
             price:86.2542,
             numbers:1,
-            cartValue:null
+            cartValue:86.2542
         }
     ])
     

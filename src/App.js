@@ -4,6 +4,8 @@ import Cart from "./Pages/Cart";
 import './App.css'
 import Navbar from "./components/Navbar";
 import { Route,Routes } from "react-router-dom";
+import Payment from "./Pages/Payment";
+import ProceedPay from "./Pages/ProceedPay";
 
 
 const App=()=>{
@@ -14,6 +16,8 @@ const App=()=>{
       <Routes>
       <Route path="/" element={<Dashboard/>}  />
       <Route path="/cart" element={<Cart/>} />
+      <Route path="/checkCart" element={<Payment/>} />
+      <Route path="/paybill" element={<ProceedPay />} />
       </Routes>
      
     </div>

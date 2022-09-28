@@ -1,0 +1,59 @@
+.paymentCard{
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 10px;
+    flex-basis: 40%;
+    background-color: rgba(220, 228, 235, 0.963);
+    border-radius: 15px;
+    height: 10%;
+}
+
+.payMain{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 20px;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.cartItems{
+    flex-basis: 50%;
+    overflow-y: scroll;
+    height: 80vh
+}
+
+.itemCard{
+    border: 1px solid black;
+    padding: 2%;
+    background-color: rgba(255, 255, 255, 0.623);
+    margin: 8px 0;
+    border-radius: 15px;
+}
+.paraCheckout{
+    font-size: 25px;
+    color: brown;
+    font-family:'Times New Roman', Times, serif;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+.paraItem{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.payButton{
+    padding: 10px;
+    display: block;
+    width: 100%;
+    color: rgb(0, 1, 0);
+    font-size: 16px;
+    background-color: rgb(33, 147, 57);
+    border: 0;
+    border-radius: 20px;
+    font-family:monospace;
+}
+
+.payButton:hover{
+    padding: 14px;
+}

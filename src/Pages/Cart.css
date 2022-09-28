@@ -56,6 +56,16 @@
 
 .btnSubmit:hover{
     color: rgba(71, 4, 185, 0.705);
-    font-size: 25px;
-    
+    font-size: 25px;   
+}
+
+.emptyCart{
+    font-size: 30px;
+    font-family:sans-serif;
+    letter-spacing: 2px;
+}
+
+.link{
+    text-decoration: none;
+    font-size: 30px;
 }
