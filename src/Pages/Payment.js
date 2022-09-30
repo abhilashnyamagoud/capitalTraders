@@ -43,8 +43,8 @@ const Payment=()=>{
                             <div key={i} className="itemCard">
                             <p className="paraItem"> <strong>Item</strong>: {ele.name} </p>
                             <p className="paraItem"> <strong>Price</strong>: {ele.price} </p>
-                            <p className="paraItem"> <strong>CartValue</strong>: {ele.cartValue} </p>
-                            <p className="paraItem"> <strong>Quantity</strong>: {ele.numbers} </p>
+                            <p className="paraItem"> <strong>CartValue</strong>: {ele.cartValue} </p>   
+                            <p className="paraItem"> <strong>Quantity</strong>: {ele.totalQuantity} ml </p>
                             <hr/>
                             </div>
                         )

@@ -31,10 +31,13 @@ const Cart=()=>{
                                 <div className="content">
                                 <p className="prodName">{ele.name} </p>
                                 <p className="prodName">Price {ele.price} $ </p>
+                                <p className="prodName">Quantity: {ele.totalQuantity} ml </p>
+
                                 {
-                                    ele.cartValue?<p className="prodPrice" >Cart Value: {ele.cartValue } $ </p>:
+                                    ele.cartValue?<p className="prodPrice" >Total: {ele.cartValue } $ </p>:
                                     <p className="prodPrice" >Total Value: {ele.price.toFixed(4) } $ </p>
                                 }
+
                                 <button onClick={()=>{decrement(ele)}} className="btn">-</button><span className="ordNum"> {ele.numbers}  </span> <button  className="btn" onClick={()=>increment(ele)} >+</button>
                                 </div>
                                 </div>

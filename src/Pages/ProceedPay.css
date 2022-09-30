@@ -43,3 +43,11 @@
 .payment{
     flex-basis: 40%;
 }
+
+.btn-pay{
+    padding: 5px;
+    background-color: cadetblue;
+    border: 0;
+    border-radius: 10px;
+    font-size: 15px;
+}

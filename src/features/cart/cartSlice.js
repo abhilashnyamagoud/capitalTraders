@@ -17,7 +17,8 @@ export const cartSlice=createSlice({
             if(ele.name===action.payload.name){
                   const result={
                     numbers:ele.numbers+=1,
-                    cartValue:ele.cartValue= action.payload.price * ele.numbers
+                    cartValue:ele.cartValue= action.payload.price * ele.numbers,
+                    totalQuantity:ele.totalQuantity= action.payload.quantity * ele.numbers
                   }  
                 return {...ele,...result }
             }else{
@@ -33,7 +34,8 @@ export const cartSlice=createSlice({
                     
                     const result={
                         numbers:val.numbers -=1,
-                        cartValue:val.cartValue= action.payload.price * val.numbers
+                        cartValue:val.cartValue= action.payload.price * val.numbers,
+                        totalQuantity:val.totalQuantity = action.payload.quantity*val.numbers
                     }
                     console.log('result',result)
                     return {...val,...result}
@@ -42,12 +44,12 @@ export const cartSlice=createSlice({
                 }
             })
         }
-    }
+    },
     }
 })
 
 export  const selectCart=(state)=>state.cart.totalCart
 
-export const {addCart ,incrementCount,decrementCount} =cartSlice.actions
+export const {addCart ,incrementCount,decrementCount,increaseQty} =cartSlice.actions
 
 export default cartSlice.reducer
